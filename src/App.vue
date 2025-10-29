@@ -56,7 +56,6 @@ const totalPrice = computed(() =>
 
 <template>
   <div class="app">
-    <!-- Navbar -->
     <Navbar
       :likes="products.filter((p) => p.liked).length"
       :cart-count="cart.length"
